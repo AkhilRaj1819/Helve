@@ -3,4 +3,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fffbeb;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
