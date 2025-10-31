@@ -19,11 +19,20 @@ const HomeMain = () => {
       />
       
     </div>
-    <div className="absolute inset-0 flex items-center justify-center">
-        <p className="text-[#fffbeb] text-9xl lg:text-9xl font-['MonsieurLaDoulaise'] font-bold tracking-wide">
+    <div className="absolute inset-0 flex flex-col items-center mt-[50vh] justify-center">
+        <p className="select-none text-[#fffbeb] lg:text-[25vh] text-[12vh] font-['MonsieurLaDoulaise'] font-bold tracking-wide"
+        style={{
+    textShadow: '2px 2px 8px rgba(0, 0, 0, 0.4)',
+  }}
+        >
           Predara
         </p>
-      </div>
+        <p className="font-['Montserrat'] font-bold text-[#fffbeb] text-[1.15rem]"
+        style={{
+              textShadow: '2px 2px 8px rgba(0, 0, 0, 0.4)',
+              }}
+        >The untamed side of luxury. </p>
+        </div>
     </div>
     </div>
   );
